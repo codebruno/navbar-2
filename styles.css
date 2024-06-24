@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poopins", sans-serif;
+}
+
+header{
+
+    background: #333;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 2%;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8d8d8d;
+    letter-spacing: 1px;
+}
+
+.logo span{
+    color: #7eccff;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links span{
+    color: #7eccff;
+}
+
+.nav-links li{
+    margin: 0 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #8d8d8d;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover{
+    color: #7eccff;
+}
+
+.nav-btn{
+    padding: 10px 20px;
+    border: 2px solid #7eccff;
+    border-radius: 50px;
+    background: transparent;
+    color: #7eccff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-btn:hover{
+    background: #7eccff;
+    color: #333;
+}
+
